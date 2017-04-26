@@ -1,0 +1,42 @@
+body {
+ margin: 0 auto;
+ position: absolute;
+ left: 0;
+ right: 0;
+ width: 650px;
+ height: 650px;
+}
+
+h4 {
+	text-align: center;
+}
+
+svg {
+    width: 100%;
+    height: 100%;
+}
+
+p {
+	margin-left: 20px;
+}
+
+#drawSpace {
+	padding-top: 20px;
+	border: 1px solid black;
+	height: 780px;
+}
+
+.point-info {
+	margin-left: 170px;
+}
+
+.coordinate-label {
+	margin-left: 10px;
+	font-size: 10px;
+}
+
+button {
+	display: inline-block;
+	width: 100%;
+	margin-top: 20px;
+}

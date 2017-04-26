@@ -1,0 +1,66 @@
+{
+	"value" : "isOnLeft",
+	"left" : {
+		"value" : ["3", "0"]
+	},
+	"right" : {
+		"value" : ["isLeft"],
+		"left" : {
+			"value" : ["isAbove"],
+			"left" : {
+				"value" : ["isAbove", "isLeft"],
+				"left" : {
+					"value" : [1, 0]
+				},
+				"right" : {
+					"value" : ["isAbove", "isLeft"],
+					"left" : {
+						"value" : [2, 0]
+					},
+					"right" : {
+						"value" : ["isLeft", "isBelow"],
+						"left" : {
+							"value" : [4, 0]
+						},
+						"right" : {
+							"value" : ["isLeft", "isBelow"],
+							"left" : {
+								"value" : [2, 2]
+							},
+							"right" : {
+								"value" : [1, 2]
+							}
+						}
+					}
+				}
+			},
+			"right" : {
+				"value" : ["isLeft", "isBelow"],
+				"left" : {
+					"value" : [1, 1]
+				},
+				"right" : {
+					"value" : ["isLeft", "isBelow"],
+					"left" : {
+						"value" : [2, 1]
+					},
+					"right" : {
+						"value" : ["isLeft", "isAbove"],
+						"left" : {
+							"value" : [4, 1]
+						},
+						"right" : {
+							"value" : ["isLeft", "isAbove"],
+							"left" : {
+								"value" : [2, 3]
+							},
+							"right" : {
+								"value" : [1, 3]
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
